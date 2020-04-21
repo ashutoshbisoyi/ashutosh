@@ -1,4 +1,4 @@
-
+$("#showHide-doRow-div").hide();
 $("#showHide-doRow-btn").on('click', function(event) {
 	$("#showHide-doRow-div").slideToggle();
 	var value=$("#showHide-doRow-btn").html();
