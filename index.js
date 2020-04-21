@@ -60,7 +60,7 @@ $(document).ready(function () {
 
     function checkScreenSize(){
         var newWindowWidth = $(window).width();
-        if (newWindowWidth < 800) {
+        if (newWindowWidth < 1000) {
             $(".mobile-showHide-div").hide();
         }
         else
