@@ -1,4 +1,4 @@
-$("#showHide-doRow-div").hide();
+
 $("#showHide-doRow-btn").on('click', function(event) {
 	$("#showHide-doRow-div").slideToggle();
 	var value=$("#showHide-doRow-btn").html();
@@ -48,24 +48,4 @@ $("#mobile-showHide-btn1").on('click', function(event) {
 		$("#mobile-showHide-btn1").html("No More");
 	}
 
-});
-
-// -----------------------Window Size-----------------------
-$(document).ready(function () {
-    $(window).on("resize", function (e) {
-        checkScreenSize();
-    });
-
-    checkScreenSize();
-
-    function checkScreenSize(){
-        var newWindowWidth = $(window).width();
-        if (newWindowWidth < 1000) {
-            $(".mobile-showHide-div").hide();
-        }
-        else
-        {
-            $(".mobile-showHide-div").show();
-        }
-    }
 });
