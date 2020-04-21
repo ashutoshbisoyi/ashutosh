@@ -623,6 +623,9 @@ h4{
 #mobile-showHide-btn1{
 	display: block;	
 }
+.mobile-showHide-div{
+	display:none;
+}
 /* -----------------------network-------------------- */
 .network-div .fab{
 	font-size:20px;
